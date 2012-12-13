@@ -1,7 +1,6 @@
 - fix text colour on all posts
 - make post title a link to page showing that single post
 - make date and posted by appear same as on original blog
-- add footer and make it the same as the original blog
 - test it on various browsers
   - IE 7, 8, 9, 10 (if I can find all those versions)
   - latest Chrome
