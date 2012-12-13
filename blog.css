@@ -1,0 +1,203 @@
+﻿/*##################################################################
+Main Blog
+###########################################################*/
+div#blog
+{
+width:100%;
+min-height:200px;
+}
+
+div#blog div#blogStoryLeft {
+ width:75%;
+ width: 85%\9;
+ float:left;
+}
+
+div#blog div#blogStoryRight {
+width:20%;
+	text-align:center;
+}
+
+
+div#blog .blogStorylayout
+{
+	width:95%;
+	margin-left:2.5%;
+	border-bottom:solid 1px #797979;
+
+}
+
+div#blog .blogStorytitle
+{
+font-size:larger;
+color:#854E10;
+border-bottom:solid 1px #797979;
+padding: 5px 0 5px 0;
+}
+
+div#blog  .blogStoryUser
+{
+	color:#000;
+	font-weight:lighter;
+
+}
+
+div#blog .blogStoryDate
+{
+border-bottom:solid 1px #797979;
+padding: 9px 0 9px 0;
+color:#fff;
+font-size:smaller;
+}
+
+div#blog .blogStoryComment
+{
+line-height:20px;
+float:right;
+margin-top:-16px;
+margin-top: -14px\9;
+margin-left: 10px\9;
+*margin-top:-45px;
+*margin-left: 10px!important;
+padding-right:5px;
+ }
+ 
+ div#blog .blogStoryComment img
+{
+margin-top:20px;
+padding-right:3px;
+vertical-align:text-bottom;
+
+
+ }
+
+
+div#blog .blogStoryComment a{
+
+	color:#000!important;
+}
+
+div#blog .blogStoryContent
+{
+padding: 9px 0 9px 0;
+
+}
+
+div#blog  .blogStoryCalendar
+{
+	margin-top:0px;
+	padding:  9px 0 9px 0;
+	color:Maroon;
+	font-size:smaller;
+
+
+}
+
+div#blog table
+{
+	width: 30%!important;
+}
+
+div#blog div#blogNavigation
+{
+	width:100%;
+/*	background-color:ButtonFace;*/
+	padding-top:3px;
+	padding-bottom:3px;
+	text-align:center;
+}
+
+div#blog .blogStoryMonth
+{
+	padding:  9px 0 9px 0;
+	color:Maroon;
+	font-size:smaller;
+
+}
+
+div#blog div#blogCommentList 
+{
+}
+
+div#blog div#blogCommentList li
+{
+margin-bottom:7px;
+padding:10px 0 15px 0;
+border-bottom: dashed 1px #854E10;
+
+}
+
+div#blog div#blogCommentListInner
+{
+
+}
+
+div#blog div#CommentPost
+{
+	margin-left:20px;
+}
+
+
+div#blog .blogTitle
+{
+	width:100%;
+/*	background-color:#B3D5A2;*/
+	display:block;
+	padding:5px;
+	font-size:larger;
+}
+
+div#blog  .blogTitlePost
+{
+	margin-left:220px;
+		font-size:smaller;
+ }
+ 
+ div#blog  .blogTitlePost a
+{
+	color:Maroon;
+ }
+ 
+ div#blog .blogTitlePost img
+{
+padding-right:5px;
+vertical-align:text-bottom;
+
+
+ }
+
+
+div#blog  .errorbox {
+	padding: 10px 10px  10px  10px;
+	margin:  5px 10px 10px 10px;
+	border: 1px solid #f00;
+	color: #C00;
+	background-image: url(admin/images/error.png);
+		background-repeat:no-repeat;
+	background-color:#fcc;
+	background-position: 10px 2px;
+min-height:35px;
+width:80%;
+
+}
+
+div#blog  .infobox {
+	padding: 10px 10px  10px  10px;
+	margin:  5px 10px 10px 10px;
+	border: 1px solid #797979;
+	color: #fff;
+	background-color:#FFCC66;
+	background-position: 10px 2px;
+min-height:35px;
+width:90%;
+font-weight:bold;
+
+}
+
+#feature #logotext{
+	*margin-left: -746px;
+}
+
+#CommentPost .blogTitle{
+	margin-left: -21px;
+}
