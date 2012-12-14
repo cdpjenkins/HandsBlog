@@ -168,9 +168,11 @@
   <div id="innercontent">
   <div id="blog">
   <div id="blogStoryLeft">
+<!-- MANUAL commented out
   <BlogDateHeader>
     <h2 class="date-header"><$BlogDateHeaderDate$></h2>
   </BlogDateHeader>
+-->
   <div class="post-body">
     <div class="blogStorylayout">
       <div class="blogStorytitle">
@@ -180,6 +182,23 @@
 	  <BlogItemUrl></a></BlogItemUrl>
         </BlogItemTitle>
       </div> <!-- blogStorytitle -->
+      
+      <div id="blogStoryDate">	
+	<BlogDateHeader>
+	  <span class="blogStoryUser"><$I18NPostedByAuthorNickname$></span>
+	    |
+	  <span><$BlogItemDateTime$></span>
+          <span><$BlogDateHeaderDate$></span>
+	</BlogDateHeader>
+	<BlogItemCommentsEnabled>
+          <a class="comment-link" href="<$BlogItemCommentCreate$>"<$BlogItemCommentFormOnclick$>><span style="text-transform:lowercase"><$I18NNumComments$></span></a>
+        </BlogItemCommentsEnabled>
+	<BlogItemBacklinksEnabled>
+	  <a class="comment-link" href="<$BlogItemPermalinkUrl$>#links"><span style="text-transform:lowercase"><$I18NLinksToThisPost$></span></a>
+        </BlogItemBacklinksEnabled>
+	<$BlogItemControl$>
+      </div>  <!-- blogStoryDate -->
+
       <$BlogItemBody$>
     </div>
   </div>
@@ -199,58 +218,52 @@
 
  <!-- Begin #comments -->
  <ItemPage>
-
   <div id="comments">
-	<BlogItemCommentsEnabled><a name="comments"></a>
-        <h4><$I18NNumComments$>:</h4>
+    <BlogItemCommentsEnabled><a name="comments"></a>
+      <h4><$I18NNumComments$>:</h4>
         <dl id="comments-block">
           <$CommentPager$>
-      <BlogItemComments>
-      <dt class="comment-data" id="<$BlogCommentAnchorName$>"><a name="<$BlogCommentAnchorName$>"></a>
-        <$I18NAtCommentTimeWithPermalink$>,
-        <$I18NCommentAuthorSaid$>
-      </dt>
-      <dd class="comment-body">
-        <p><$BlogCommentBody$></p>
-	  <$BlogCommentDeleteIcon$>
-      </dd>
+	  <BlogItemComments>
+	    <dt class="comment-data" id="<$BlogCommentAnchorName$>"><a name="<$BlogCommentAnchorName$>"></a>
+	      <$I18NAtCommentTimeWithPermalink$>,
+	      <$I18NCommentAuthorSaid$>
+	    </dt>
+	    <dd class="comment-body">
+              <p><$BlogCommentBody$></p>
+	      <$BlogCommentDeleteIcon$>
+            </dd>
 	  </BlogItemComments>
-    <$CommentPager$>
-
-    </dl>
-		<p class="comment-timestamp">
-    <$BlogItemCreate$>
-    </p>
-    <p id="postfeeds"><$BlogItemFeedLinks$></p>
+          <$CommentPager$>
+        </dl>
+      <p class="comment-timestamp">
+        <$BlogItemCreate$>
+      </p>
+      <p id="postfeeds"><$BlogItemFeedLinks$></p>
     </BlogItemCommentsEnabled>	    
     <BlogItemBacklinksEnabled>
-    <a name="links"></a><h4><$I18NLinksToThisPost$>:</h4>
-    <dl id="comments-block">
-    <BlogItemBacklinks>
-        <dt class="comment-title">
-        <$BlogBacklinkControl$>
-        <a href="<$BlogBacklinkURL$>" rel="nofollow"><$BlogBacklinkTitle$></a> <$BlogBacklinkDeleteIcon$>
-        </dt>
-        <dd class="comment-body"><$BlogBacklinkSnippet$>
-        <br />
-        <span class="comment-poster">
-        <em><$I18NPostedByBacklinkAuthor$> @ <$BlogBacklinkDateTime$></em>
-        </span>
-        </dd>
-    </BlogItemBacklinks>
-    </dl>
-    <p class="comment-timestamp"><$BlogItemBacklinkCreate$></p>
+      <a name="links"></a><h4><$I18NLinksToThisPost$>:</h4>
+      <dl id="comments-block">
+        <BlogItemBacklinks>
+          <dt class="comment-title">
+            <$BlogBacklinkControl$>
+            <a href="<$BlogBacklinkURL$>" rel="nofollow"><$BlogBacklinkTitle$></a> <$BlogBacklinkDeleteIcon$>
+          </dt>
+          <dd class="comment-body"><$BlogBacklinkSnippet$>
+            <br />
+            <span class="comment-poster">
+              <em><$I18NPostedByBacklinkAuthor$> @ <$BlogBacklinkDateTime$></em>
+            </span>
+          </dd>
+        </BlogItemBacklinks>
+      </dl>
+      <p class="comment-timestamp"><$BlogItemBacklinkCreate$></p>
     </BlogItemBacklinksEnabled>
-
-
-		<p style="padding-left:20px;">
-	<a href="<$BlogURL$>">&lt;&lt; <$I18NHome$></a>
+    <p style="padding-left:20px;">
+      <a href="<$BlogURL$>">&lt;&lt; <$I18NHome$></a>
     </p>
-    </div>
-
+  </div>
 </ItemPage>
-
-  <!-- End #comments -->
+<!-- End #comments -->
 
 </div> <!-- blogStoryLeft -->
 </div> <!-- blog -->
