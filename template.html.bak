@@ -1,0 +1,308 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="<$BlogLanguageDirection$>">
+
+<head>
+  <$BlogMetaData$>
+
+  <link href='http://www.handsworld.org/css/base.css' media='all' rel='stylesheet' type='text/css'/>
+  <link href='http://www.handsworld.org/blog/blog.css' media='all' rel='stylesheet' type='text/css'/>
+
+  <style type="text/css">
+
+@media all {
+/*
+  #content {
+    background: url('http://www.handsworld.org/images/bg.jpg') top left repeat-x;
+  }
+*/
+/* Comments
+----------------------------------------------- */
+#comments {
+  margin:-25px 13px 0;
+  border:1px dotted #ccc;
+  border-width:0 1px 1px;
+  padding:20px 0 15px 0;
+  }
+#comments h4 {
+  margin:0 0 10px;
+  padding:0 14px 2px 29px;
+  border-bottom:1px dotted #ccc;
+  font-size:120%;
+  line-height:1.4em;
+  color:#333;
+  }
+#comments-block {
+  margin:0 15px 0 9px;
+  }
+.comment-data {
+  background:url("http://www.blogblog.com/rounders/icon_comment.gif") no-repeat 2px .3em;
+  margin:.5em 0;
+  padding:0 0 0 20px;
+  color:#666;
+  }
+.comment-poster {
+  font-weight:bold;
+  }
+.comment-body {
+  margin:0 0 1.25em;
+  padding:0 0 0 20px;
+  }
+.comment-body p {
+  margin:0 0 .5em;
+  }
+.comment-timestamp {
+  margin:0 0 .5em;
+  padding:0 0 .75em 20px;
+  color:#666;
+  }
+.comment-timestamp a:link {
+  color:#666;
+  }
+.deleted-comment {
+  font-style:italic;
+  color:gray;
+  }
+.paging-control-container {
+  float: right;
+  margin: 0px 6px 0px 0px;
+  font-size: 80%;
+}
+.unneeded-paging-control {
+  visibility: hidden;
+}
+
+/* Sidebar Boxes
+----------------------------------------------- */
+@media all {
+  .box {
+    background:#fff url("http://www.blogblog.com/rounders/corners_side_top.gif") no-repeat left top;
+    margin:0 0 15px;
+    padding:10px 0 0;
+    color:#666;
+    }
+  .box2 {
+    background:url("http://www.blogblog.com/rounders/corners_side_bot.gif") no-repeat left bottom;
+    padding:0 13px 8px;
+    }
+  }
+@media handheld {
+  .box {
+    background:#fff;
+    }
+  .box2 {
+    background:none;
+    }
+  }
+.sidebar-title {
+  margin:0;
+  padding:0 0 .2em;
+  border-bottom:1px dotted #9b9;
+  font-size:115%;
+  line-height:1.5em;
+  color:#333;
+  }
+.box ul {
+  margin:.5em 0 1.25em;
+  padding:0 0px;
+  list-style:none;
+  }
+.box ul li {
+  background:url("http://www.blogblog.com/rounders/icon_arrow_sm.gif") no-repeat 2px .25em;
+  margin:0;
+  padding:0 0 3px 16px;
+  margin-bottom:3px;
+  border-bottom:1px dotted #eee;
+  line-height:1.4em;
+  }
+.box p {
+  margin:0 0 .6em;
+  }
+
+/* Feeds
+----------------------------------------------- */
+#blogfeeds {
+  }
+#postfeeds {
+  padding:0 15px 0;
+  }
+  </style>
+</head>
+
+<body>
+
+<div id='outertop'>
+  <div id='logosapce' style='background-color:#fff;'>
+    <img alt='logo' id='logo' src='http://www.handsworld.org/images/logo.jpg'/>
+  </div>
+  <div id='nav'>
+    <ul id='ctl00_contentBody_parentLevelNav'>
+      <li><a href='http://www.handsworld.org/default.aspx' title='home'><span>home</span></a></li><li><a href='http://www.handsworld.org/about.aspx' title='about us'><span>about us</span></a></li><li><a href='http://www.handsworld.org/projects.aspx' title='projects'><span>projects</span></a></li><li><a href='http://www.handsworld.org/teams.aspx' title='teams'><span>teams</span></a></li><li><a href='http://www.handsworld.org/galleries.aspx' title='galleries'><span>galleries</span></a></li><li><a href='http://www.handsworld.org/blog/default.aspx?b=a2GSpnDbruI=' title='blog'><span>blog</span></a></li><li><a href='http://www.handsworld.org/contact.aspx' title='contact'><span>contact</span></a></li><li><a href='http://www.handsworld.org/friends.aspx' title='friends'><span>friends</span></a></li><li><a href='http://www.handsworld.org/movies.aspx' title='movies'><span>movies</span></a></li>
+    </ul>
+  </div><!-- nav -->
+  <div id='whitebar'/></div>
+</div>
+
+
+<!-- <div id="content"> -->
+
+<!-- Begin #main - Contains main-column blog content -->
+
+<div id="outer"><div id="inner">
+  <div id="feature">
+    <img src="http://www.handsworld.org/images/blog-image.jpg" alt="blog" class="reflect">
+    <div id="logotext">
+      <h1>blog</h1>
+    </div>
+  </div>
+
+  <div id="subnav">
+    <ul id="ctl00_contentBody_childLevelNav"><li></li></ul>
+    <ul id="ctl00_contentBody_granchildLevelNav" style="display:none;"><li></li></ul>
+  </div>
+
+<div id="contentinner">
+<div id="maininner2" class="contact">
+
+<Blogger>
+  <div id="innercontent">
+  <div id="blog">
+  <div id="blogStoryLeft">
+<!-- MANUAL commented out
+  <BlogDateHeader>
+    <h2 class="date-header"><$BlogDateHeaderDate$></h2>
+  </BlogDateHeader>
+-->
+  <div class="post-body">
+    <div class="blogStorylayout">
+      <div class="blogStorytitle">
+        <BlogItemTitle>
+  	  <BlogItemUrl><a href="<$BlogItemUrl$>" title="external link" class="title-link"></BlogItemUrl>
+          <a href="http://www.google.com"><$BlogItemTitle$></a>
+	  <BlogItemUrl></a></BlogItemUrl>
+        </BlogItemTitle>
+      </div> <!-- blogStorytitle -->
+
+      <div id="blogStoryDate">	
+	<BlogDateHeader>
+<!-- MANUAL commented out
+	  <h2 class="date-header"><$BlogDateHeaderDate$></h2>
+-->
+	  <span class="blogStoryUser"><$I18NPostedByAuthorNickname$></span>
+	    |
+	  <span><$BlogItemDateTime$></span>
+          <span><$BlogDateHeaderDate$></span>
+	</BlogDateHeader>
+<!-- MANUAL commented out
+	<em><$I18NPostedByAuthorNickname$> @ <a href="<$BlogItemPermalinkUrl$>" title="permanent link"><$BlogItemDateTime$></a></em> &nbsp;
+
+-->
+	<BlogItemCommentsEnabled>
+          <a class="comment-link" href="<$BlogItemCommentCreate$>"<$BlogItemCommentFormOnclick$>><span style="text-transform:lowercase"><$I18NNumComments$></span></a>
+        </BlogItemCommentsEnabled>
+	<BlogItemBacklinksEnabled>
+	  <a class="comment-link" href="<$BlogItemPermalinkUrl$>#links"><span style="text-transform:lowercase"><$I18NLinksToThisPost$></span></a>
+        </BlogItemBacklinksEnabled>
+	<$BlogItemControl$>
+      </div>  <!-- blogStoryDate -->
+
+<!--
+ <div class="blogStoryDate">
+        <span class="blogStoryUser">By <span id="ctl00_contentBody_ctl00_rptStory_ctl00_lblUser">James</span></span>
+         | 
+        <span id="ctl00_contentBody_ctl00_rptStory_ctl00_lblTime">04:11</span> UK time, 
+        <span id="ctl00_contentBody_ctl00_rptStory_ctl00_lblDate">Friday, October 5, 2012</span>
+
+
+ <img src="../images/blog/comment.png" /> <a id="ctl00_contentBody_ctl00_rptStory_ctl00_lnkComments" href="default.aspx?s=o3EscXnBscI=#postComment" style="color:Maroon;">Post your comment</a>
+</div>
+ -->
+ </div>
+
+
+
+
+
+
+      <$BlogItemBody$>
+    </div>
+  </div>
+
+</div>
+
+ <!-- Begin #comments -->
+ <ItemPage>
+
+  <div id="comments">
+	<BlogItemCommentsEnabled><a name="comments"></a>
+        <h4><$I18NNumComments$>:</h4>
+        <dl id="comments-block">
+          <$CommentPager$>
+      <BlogItemComments>
+      <dt class="comment-data" id="<$BlogCommentAnchorName$>"><a name="<$BlogCommentAnchorName$>"></a>
+        <$I18NAtCommentTimeWithPermalink$>,
+        <$I18NCommentAuthorSaid$>
+      </dt>
+      <dd class="comment-body">
+        <p><$BlogCommentBody$></p>
+	  <$BlogCommentDeleteIcon$>
+      </dd>
+	  </BlogItemComments>
+    <$CommentPager$>
+
+    </dl>
+		<p class="comment-timestamp">
+    <$BlogItemCreate$>
+    </p>
+    <p id="postfeeds"><$BlogItemFeedLinks$></p>
+    </BlogItemCommentsEnabled>	    
+    <BlogItemBacklinksEnabled>
+    <a name="links"></a><h4><$I18NLinksToThisPost$>:</h4>
+    <dl id="comments-block">
+    <BlogItemBacklinks>
+        <dt class="comment-title">
+        <$BlogBacklinkControl$>
+        <a href="<$BlogBacklinkURL$>" rel="nofollow"><$BlogBacklinkTitle$></a> <$BlogBacklinkDeleteIcon$>
+        </dt>
+        <dd class="comment-body"><$BlogBacklinkSnippet$>
+        <br />
+        <span class="comment-poster">
+        <em><$I18NPostedByBacklinkAuthor$> @ <$BlogBacklinkDateTime$></em>
+        </span>
+        </dd>
+    </BlogItemBacklinks>
+    </dl>
+    <p class="comment-timestamp"><$BlogItemBacklinkCreate$></p>
+    </BlogItemBacklinksEnabled>
+
+
+		<p style="padding-left:20px;">
+	<a href="<$BlogURL$>">&lt;&lt; <$I18NHome$></a>
+    </p>
+    </div>
+
+</ItemPage>
+
+  <!-- End #comments -->
+
+</div> <!-- blogStoryLeft -->
+</div> <!-- blog -->
+</div> <!-- innercontent -->
+</Blogger>
+
+<div id="innerfooter"><p>contact hands: <a title="office@handsworld.org" href="mailto:office@handsworld.org">office@handsworld.org</a> hands is a uk registered charity no: 1050848</p>
+<ul><li><a href="http://www.handsworld.org/privacy.aspx" title="privacy"><span>privacy</span></a></li>
+<li><a href="http://www.handsworld.org/accessibillity.aspx" title="accessibility"><span>accessibility</span></a></li>
+<li><a href="http://www.perfectarc.com" title="site by perfectarc"><span>site by perfectarc</span></a></li></ul>
+<ul id="staticLevelNav"><li></li></ul>
+</div>
+</div></div></div>
+
+
+<!-- </div> content - I hope -->
+<!-- MANUAL end -->
+
+</div>
+</body>
+
+</html>
