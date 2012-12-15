@@ -180,18 +180,17 @@
       
       <div class="blogStoryDate">
 	<span class="blogStoryUser"><$I18NPostedByAuthorNickname$></span>
-<!-- MANUAL commented out
 	<BlogDateHeader>
--->
 	    |
 	  <span><$BlogItemDateTime$></span>
           <span><$BlogDateHeaderDate$></span>
-<!-- MANUAL commented out
 	</BlogDateHeader>
--->
 
 	<BlogItemCommentsEnabled>
-          <a class="comment-link" href="<$BlogItemCommentCreate$>"<$BlogItemCommentFormOnclick$>><span style="text-transform:lowercase"><$I18NNumComments$></span></a>
+	  <div class="blogStoryComment">
+	    <img src="http://www.handsworld.org/images/blog/comment.png">
+            <a class="comment-link" href="<$BlogItemCommentCreate$>"<$BlogItemCommentFormOnclick$>><span style="text-transform:lowercase"><$I18NNumComments$></span></a>
+	    </div>
         </BlogItemCommentsEnabled>
 	<BlogItemBacklinksEnabled>
 	  <a class="comment-link" href="<$BlogItemPermalinkUrl$>#links"><span style="text-transform:lowercase"><$I18NLinksToThisPost$></span></a>
