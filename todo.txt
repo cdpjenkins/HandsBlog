@@ -1,7 +1,6 @@
 
-
-
-- test it on various browsers
+- The page where you enter comments still looks a bit rubbish
+- Test it on various browsers
   - IE 7, 8, 9, 10 (if I can find all those versions)
   - latest Chrome
   - latest Firefox
@@ -9,4 +8,4 @@
   - iPhone browser if I can find it
 - Give James editor access to the blog
 - Set up DNS so it lives within the handsworld.org domain instead of the blogspot.com domain. 
-- Why doesn't the "posted by" come up on second blog post eh???
+
