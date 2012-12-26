@@ -166,6 +166,11 @@
 
   <div id="innercontent">
   <div id="blog">
+
+<!-- Email subcription form BEGIN -->
+<form style="border:1px solid #ccc;padding:3px;text-align:center;" action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=HandsBlog', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true"><p>Enter your email address:</p><p><input type="text" style="width:140px" name="email"/></p><input type="hidden" value="HandsBlog" name="uri"/><input type="hidden" name="loc" value="en_US"/><input type="submit" value="Subscribe" /><p>Delivered by <a href="http://feedburner.google.com" target="_blank">FeedBurner</a></p></form>
+<!-- Email subcription form END -->
+
   <div id="blogStoryLeft">
 
 <Blogger>
@@ -203,7 +208,7 @@
       </div>
  <!-- Begin #comments -->
  <ItemPage>
-  <div id="comments">
+  <div id="CommentPost">
     <BlogItemCommentsEnabled><a name="comments"></a>
       <h4><$I18NNumComments$>:</h4>
         <dl id="comments-block">
@@ -246,7 +251,7 @@
     <p style="padding-left:20px;">
       <a href="<$BlogURL$>">&lt;&lt; <$I18NHome$></a>
     </p>
-  </div>
+  </div> <!-- Comment post -->
 </ItemPage>
 <!-- End #comments -->
 
@@ -254,6 +259,13 @@
 </Blogger>
 
 </div> <!-- blogStoryLeft -->
+
+<h2>These are the archives... something of a work in progress at present!</h2>
+<BloggerArchives>
+  <a href='<$BlogArchiveURL$>'><$BlogArchiveName$></a>
+</BloggerArchives>
+<h2>And this is the end of the archives</h2>
+
 </div> <!-- blog -->
 </div> <!-- innercontent -->
 </div> <!-- maininner2 -->

@@ -8,4 +8,3 @@
   - iPhone browser if I can find it
 - Give James editor access to the blog
 - Set up DNS so it lives within the handsworld.org domain instead of the blogspot.com domain. 
-
